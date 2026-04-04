@@ -973,7 +973,7 @@ class SubtitleRemover:
 if __name__ == '__main__':
     multiprocessing.set_start_method("spawn")
     # 1. 提示用户输入视频路径
-    video_path = input(f"Please input video or image file path: ").strip()
+    video_path = '/kaggle/working/video-subtitle-remover/input.mp4'
     # 判断视频路径是不是一个目录，是目录的化，批量处理改目录下的所有视频文件
     # 2. 按以下顺序传入字幕区域
     # sub_area = (ymin, ymax, xmin, xmax)
